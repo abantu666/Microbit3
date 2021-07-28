@@ -1,0 +1,36 @@
+{
+    "name": "bitabantu",
+    "version": "0.0.1",
+    "description": "bitabantu",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.1"
+    },
+    "files": [
+        "README.md",
+        "bitabantu.cpp",
+        "bitabantu.ts",
+        "_locales/zh/bitabantu-strings.json",
+        "_locales/zh/bitabantu-jsdoc-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "enabled": 0
+                }
+            }
+        }
+    }
+}
